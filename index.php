@@ -22,7 +22,7 @@
             <option value="Rock & Roll">Rock & Roll</option>
           </select>
           <div style="text-align:center;" class="mt-5">
-            <button type="submit" class="ml-auto mr-auto btn btn-outline-danger ">Procurar</button>
+            <button type="submit" class="ml-auto mr-auto btn btn-outline-info ">Procurar</button>
           </div>
         </form>
 
