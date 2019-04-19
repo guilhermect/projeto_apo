@@ -111,8 +111,6 @@ $(function(){
         
     ?>
         
-        <h4>Nenhum resultado encontrado</h4>
-
     <?php
         }
         
