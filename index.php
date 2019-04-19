@@ -13,16 +13,16 @@
 
       <div class="container col-md-6 mt-4">
 
-        <h3 class="text-white text-center"> Seja Bem Vindo(a) !  </h3>
+        <h3 class="text-white text-center"> Escolha uma categoria  </h3>
 
         <form action="lista_categoria.php" method="post">
-          <select class="custom-select custom-select-sm mt-3">
-            <option selected disabled> Pesquise por categoria </option>
-            <option value="1">Rock & Roll</option>
-            <option value="2">Hip & Hop</option>
+          <select class="custom-select custom-select-sm mt-3" name="categoria">
+            <option selected disabled> Escolha uma categoria </option>
+            <option value="Hip Hop">Hip Hop</option>
+            <option value="Rock & Roll">Rock & Roll</option>
           </select>
-          <div style="text-align:center;" class="mt-4">
-            <button type="submit" class="ml-auto mr-auto btn btn-outline-info ">Procurar</button>
+          <div style="text-align:center;" class="mt-5">
+            <button type="submit" class="ml-auto mr-auto btn btn-outline-danger ">Procurar</button>
           </div>
         </form>
 
